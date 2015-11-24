@@ -1,3 +1,4 @@
+# require 'roar/json/json_api'
 require 'roar/json/hal'
 require 'reevoo/product_representer'
 
