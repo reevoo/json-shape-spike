@@ -64,6 +64,7 @@ PLATFORMS
 DEPENDENCIES
   grape
   grape-roar
+  multi_json
   roar
   shotgun
 

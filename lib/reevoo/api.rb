@@ -1,4 +1,5 @@
 require 'reevoo/product'
+require 'reevoo/products_representer'
 
 module Reevoo
   class API < Grape::API
@@ -8,7 +9,7 @@ module Reevoo
     resource :products do
       desc 'Return a list of products'
       get do
-        present Product.all.map(&:to_h)
+        present Product.all, with: ProductsRepresenter
       end
     end
   end
