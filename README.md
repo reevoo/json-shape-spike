@@ -2,7 +2,7 @@
 
 ## Spike assignment 
 
-Create simple API allowing users to list products and their reviews, create review and upvote/downwote review. Use HAL JSON and then JSON API format for request/responses.
+Create simple API allowing users to list products and their reviews, create review and upvote/downwote review. Use HAL JSON and then JSON API format for request/response JSON structure.
 
 ## Resoures
 
